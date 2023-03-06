@@ -34,6 +34,6 @@ class BaseRepository(ABC):
         raise NotImplementedError("Derived classes must implement find_first")
 
     @abstractmethod
-    def find_all(query) -> list[BookmarkModel]:
+    def find_all(query) -> List[BookmarkModel]:
         raise NotImplementedError("Derived classes must implement find_all")
 

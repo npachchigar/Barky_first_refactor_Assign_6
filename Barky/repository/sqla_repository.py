@@ -36,7 +36,7 @@ class SQLARespository(BaseRepository):
         self.Session.commit()
         pass
 
-    def add_many(self, bookmarks: list[BookmarkModel]) -> int:
+    def add_many(self, bookmarks: List[BookmarkModel]) -> int:
         self.Session.add(bookmarks)
         pass
 
@@ -55,5 +55,5 @@ class SQLARespository(BaseRepository):
     def find_first(self, query) -> BookmarkModel:
         pass
 
-    def find_all(self, query) -> list[BookmarkModel]:
+    def find_all(self, query) -> List[BookmarkModel]:
         pass
