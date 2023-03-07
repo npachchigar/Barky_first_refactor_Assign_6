@@ -12,3 +12,4 @@ def test_api_index():
     res = requests.get(LOCALHOST)
     assert res != None
 
+
