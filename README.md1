@@ -1,2 +1,5 @@
-run flask application
+## run flask application
 - flask --app flaskapi run
+
+## For testing:
+- pytest --tb=short test_commands.py
