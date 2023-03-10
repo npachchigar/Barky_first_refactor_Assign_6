@@ -38,3 +38,5 @@ def test_first(api):
 def test_many(api):
     response = requests.get(f"{LOCALHOST}/api/many/property/value/sort")
     #assert response.text == 'many records'
+
+
